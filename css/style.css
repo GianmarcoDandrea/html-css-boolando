@@ -25,44 +25,50 @@ img {
     flex-wrap: wrap;
 }
 
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
 .pos-abs {
     position: absolute;
+}
+
+.pos-rel {
+    position: relative;
 }
 
 /* MAIN */
 
 .col {
     width: calc(100% / 3);
-    padding: 2rem;
 }
 
 .photos {
-    position: relative;
+    width: 100%;
+
 }
 
 .photos:hover .top-picture {
     display: none;
 }
 
+.heart-box {
+    width: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    right: 0;
+    top: 0.5em;
+}
 
+.heart-box:hover {
+    color:red;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-nav {
-    /* debug */
-    height: 100px;
-    width: 100%;
-    background-color: aqua;
+.discount-box {
+    bottom: 0.5em;
+    left: 0.5em;
 }
