@@ -82,7 +82,7 @@ img {
 
 .discount {
     font-size: 0.8rem;
-    padding: 0.2rem;
+    padding: 0.2rem 0.4rem;
     background-color: var(--bg-red);
     color: white;
     margin-right: 0.5rem
@@ -93,4 +93,27 @@ img {
     color: white;
     padding: 0.2rem;
     font-size: 0.8rem;
+}
+
+.brand {
+    font-size: 0.7rem;
+}
+
+.name {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 0.8rem;
+}
+
+.discount-price {
+    color: var(--bg-red);
+    margin: 0.2rem;
+    font-weight: bold;
+}
+
+.original-price{
+    text-decoration: line-through;
 }
