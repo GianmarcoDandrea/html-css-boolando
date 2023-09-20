@@ -69,6 +69,10 @@ ul{
     width: 40%;
 }
 
+.header-option-bar{
+    justify-content: flex-end;
+}
+
 .nav-gender, .header-option-bar {
     width: 30%;
 }
