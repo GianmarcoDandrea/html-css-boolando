@@ -20,9 +20,8 @@ img {
 /* COMMON */
 
 .container {
-    width: 70%;
+    width: 80%;
     margin: auto;
-    padding: 3rem 0;
 }
 
 .flex-container {
@@ -46,7 +45,40 @@ img {
     position: relative;
 }
 
+/* HEADER */
+header {
+    background-color: var(--bg-orange);
+}
+
+header > .container {
+    padding: 1rem 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.nav-gender > li, a {
+    font-size: 1.2rem;
+    color: white ;
+    padding-left: 0.8rem;
+    text-decoration: none;
+}
+
+.logo {
+    width: 40%;
+}
+
+.nav-gender, .header-option-bar {
+    width: 30%;
+}
+
+
 /* MAIN */
+
+main{
+    padding: 3rem 0;
+}
 
 .col {
     width: calc(100% / 3);
@@ -116,6 +148,6 @@ img {
     font-weight: bold;
 }
 
-.original-price{
+.original-price {
     text-decoration: line-through;
 }
